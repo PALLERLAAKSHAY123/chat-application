@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(60, 131, 224);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background:deepskyblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#chat-room {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:cornflowerblue;
+}
+
+#messages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.message {
+    margin: 5px 0;
+}
+
+#message-input {
+    display: flex;
+}
+
+#message-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#message-input button {
+    padding: 10px;
+    margin-left
+    : 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message-input button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#user-status {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#user-status input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#user-status button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
